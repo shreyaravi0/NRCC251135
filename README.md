@@ -63,11 +63,6 @@ Each pixel is classified into:
 | CLOUD     | `1`   | `B2 > 0.35` and `B3 > 0.23` and `B4 > 0.22`  |
 | SHADOW    | `2`   | `B2, B3, B4 < ~0.1` and `NDVI < 0.2`         |
 
-NDVI is calculated as:
-
-\[
-\text{NDVI} = \frac{B4 - B3}{B4 + B3}
-\]
 
 ---
 
