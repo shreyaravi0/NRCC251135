@@ -15,9 +15,7 @@ data/
 │ ├── BAND4.tif
 │ ├── BAND_META.txt
 
-yaml
-Copy
-Edit
+
 
 Each scene contains:
 - Georeferenced TIFF images for **BAND2**, **BAND3**, and **BAND4**
@@ -78,9 +76,6 @@ outputs/
 ├── overlays/
 │ └── [SceneID]_mask_overlay.png
 
-yaml
-Copy
-Edit
 
 - **Reflectance TIFF**: 3-band georeferenced reflectance image
 - **Mask TIFF**: 8-bit georeferenced semantic mask (0=NOCLOUD, 1=CLOUD, 2=SHADOW)
